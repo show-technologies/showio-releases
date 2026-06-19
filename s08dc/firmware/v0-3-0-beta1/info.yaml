@@ -1,0 +1,7 @@
+sku: s08dc
+version: 0.3.0-beta1
+changes: 
+  features:
+    - Implemented web server and OTA firmware updates from cloud
+  improvements:
+    - Major rewrite of message piping and configuration; it's much more efficient now, trust me :)

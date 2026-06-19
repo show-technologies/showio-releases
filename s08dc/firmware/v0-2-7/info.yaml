@@ -1,0 +1,7 @@
+sku: s08dc
+version: 0.2.7
+changes: 
+  features:
+    - Enabled Watchdog timer in firmware; if program crashes, watchdog will auto-reset
+  fixes:
+    - Stopped firmware + bootloader version from getting overwritten on factory reset
