@@ -1,0 +1,12 @@
+sku: s08dc
+version: 0.3.0-beta2
+changes: 
+  features:
+    - Fully-featured web UI
+    - Cloud firmware updates
+    - OSC WebSocket integration
+  improvements:
+    - Efficiency improvements to network message piping 
+    - Improve reliability of configuration system
+  fixes:
+    - Updated [sio/cfg/osc/reportMsg/di/<channel>/<state>] response address to include channel and state
