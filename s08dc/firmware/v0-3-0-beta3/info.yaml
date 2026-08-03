@@ -1,0 +1,5 @@
+sku: s08dc
+version: 0.3.0-beta3
+changes: 
+  improvements:
+    - Web UI performance and reliability upgrades
