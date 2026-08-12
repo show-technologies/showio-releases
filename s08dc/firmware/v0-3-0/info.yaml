@@ -1,0 +1,14 @@
+sku: s08dc
+version: 0.3.0
+changes: 
+  features:
+    - Fully-featured web UI
+    - Cloud firmware updates
+    - OSC WebSocket integration
+  improvements:
+    - Efficiency improvements to network message piping 
+    - Improve reliability of configuration system
+  fixes:
+    - Updated [sio/cfg/osc/reportMsg/di/<channel>/<state>] response address to include channel and state
+    - Changed default device name to "My ShowIO" (was SHOWIO_PROTO5)
+    - Changed USB interface product name to "SIO-S08DC" (was SIO-PROTO5)
