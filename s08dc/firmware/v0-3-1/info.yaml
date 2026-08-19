@@ -1,0 +1,5 @@
+sku: s08dc
+version: 0.3.1
+changes: 
+  fixes:
+    - No longer crashes on boot in DHCP mode
