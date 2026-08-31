@@ -1,0 +1,6 @@
+sku: s08dc
+version: 0.3.2
+changes: 
+  fixes:
+    - Report messages now get sent to the configured port per-subscriber instead of the response port
+    - USB subscription with no connected USB no longer causes a crash
