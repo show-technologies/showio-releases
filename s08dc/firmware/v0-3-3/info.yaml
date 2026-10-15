@@ -1,0 +1,7 @@
+sku: s08dc
+version: 0.3.3
+changes: 
+  fixes:
+    - Fix crash on DI event messages with Web UI disconnected
+    - Add brief delay on boot before reading configuration
+    - DIP switch driver improvements
