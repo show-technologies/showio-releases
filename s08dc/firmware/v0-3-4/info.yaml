@@ -1,0 +1,9 @@
+sku: s08dc
+version: 0.3.4
+changes: 
+  features:
+    - Add command to spoof digital input signal for testing purposes
+  fixes:
+    - Eliminate crash points on packet exhaustion from repeated messages or front-of-line blocks
+    - Fix front-of-line block on event message to a peer that's not reachable on the network; track unreachable peers and drop messages instead
+    - Improve debouncing logic, stops digital input event failure inside of the debouncing window
